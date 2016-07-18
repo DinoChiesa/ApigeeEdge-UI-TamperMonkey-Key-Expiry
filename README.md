@@ -38,7 +38,7 @@ Tampermonkey is a browser extension, that works on Firefox, Chrome, Safari, etc.
 1. Visit  [tampermonkey.net](https://tampermonkey.net/) and install Tampermonkey
 
 2. Then, use the tampermonkey menu to add a new script.
-  ![screengrab 2](img/tm-add-new-script.png)
+  <img src="img/tm-add-new-script.png" style='max-width:308px;'>
 
 3. copy-paste the [key-expiry.user.js](lib/key-expiry.user.js) script into place.
 
