@@ -88,11 +88,11 @@ It *ought to* work just fine on other combinations of browsers.
 
 ## Bugs
 
-* There's no guarantee that the 2.2s delay before this script starts working, is
+* There's no guarantee that the 1.8s delay before this script starts working, is
   long enough for the page to be loaded. On a slow connection, the script may fail. 
 
-* This script doesn't properly handle the edit event.  
-  The screen will become garbled. To correct that, reload the page after editing a developer app. Pull requests welcome.
+* This script doesn't elegantly handle the edit event.  
+  The screen will become momentarily garbled, before correcting itself.
 
 * This script will break if/when Apigee changes the layout of the UI.
   It does screen-scraping to figure out where/how to add UI elements. 
