@@ -4,6 +4,7 @@ This is a [Tampermonkey](https://tampermonkey.net/) script that tweaks
 the [Apigee Edge](https://edge.apigee.com) UI to display expiry information for a Developer App Key in the browser
 page.  It also displays the status of the developer app itself.
 
+
 ## Background
 
 Apigee Edge has a concept of Developer App. Each developer app has:
@@ -77,6 +78,12 @@ The modular version is simpler to manage. The full version has fewer dependencie
 ## License
 
 This user script is licensed under the [Apache 2.0 license](LICENSE).
+
+
+## Compatibility
+
+This user script works with Firefox, and Chrome on MacOS X. 
+It *ought to* work just fine on other combinations of browsers. 
 
 
 ## Bugs
