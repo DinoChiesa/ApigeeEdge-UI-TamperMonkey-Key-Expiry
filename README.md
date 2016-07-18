@@ -49,10 +49,18 @@ Then,
 4. Done.
 
 
+## The Modular Version
+
+There are two versions of the code - one is modular and depends on external libraries for the dateFormat and durationHumanizer functions. The other is not modular, and includes those pieces directly.  Which one you prefer to use is up to you.
+
+Either one will work; you need just one of them, not both. 
+
+
 ## How does it work?
 
 The script just inserts a few UI elements to display the relevant information. 
-It is set to run after a 2.2s delay. 
+It is set to run after a brief delay, maybe around ~3.5s.
+
 
 
 ## License
