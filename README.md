@@ -1,7 +1,7 @@
 # Apigee Edge UI Tampermonkey script to display Key Expiry
 
 This is a [Tampermonkey](https://tampermonkey.net/) script that tweaks
-the Apigee Edge UI to display expiry information for a Developer App Key in the browser
+the [Apigee Edge](https://edge.apigee.com) UI to display expiry information for a Developer App Key in the browser
 page.  It also displays the status of the developer app itself.
 
 ## Background
