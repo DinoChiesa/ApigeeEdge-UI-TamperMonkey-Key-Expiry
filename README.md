@@ -61,6 +61,8 @@ Either one will work; you need just one of them, not both.
 The script just inserts a few UI elements to display the relevant information. 
 It is set to run after a brief delay, maybe around ~3.5s.
 
+Thereafter, it runs every 1.8s and checks to see if the page being viewed is a developer app page, which needs to be tweaked. This userscript runs only on edge.apigee.com or enterprise.apigee.com . 
+
 
 
 ## License
