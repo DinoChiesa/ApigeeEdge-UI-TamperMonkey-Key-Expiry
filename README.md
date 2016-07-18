@@ -33,22 +33,41 @@ This tampermonkey script shows the expiry of each credential, and the status of 
 
 ## Installing
 
-Tampermonkey is a browser extension, that works on Firefox, Chrome, Safari, etc.
+Tampermonkey is a browser extension, that works on Firefox, Chrome, Safari, etc. It is a pre-requisite to get this tweak of the Edge UI. 
 
-1. Visit  [tampermonkey.net](https://tampermonkey.net/) and install Tampermonkey
+If you don't have this extension loaded for your browser, you must first visit  [tampermonkey.net](https://tampermonkey.net/) and install Tampermonkey
 
-2. Then, use the tampermonkey menu to add a new script.
+Then, 
+
+1 Use the tampermonkey menu to add a new script.
   <img src="img/tm-add-new-script.png" width='308px'>
 
-3. copy-paste the [key-expiry.user.js](lib/key-expiry.user.js) script into place.
+2. copy-paste the [key-expiry.user.js](lib/key-expiry.user.js) script into place.
 
-4. Reload the browser tab that is displaying the Developer app.
+3. Reload the browser tab that is displaying the Developer app.
 
-5. Done.
+4. Done.
+
+
+## How does it work?
+
+The script just inserts a few UI elements to display the relevant information. 
+It is set to run after a 2.2s delay. 
+
+
+## License
+
+This is licensed under the [Apache 2.0 license](LICENSE).
 
 
 ## Bugs
 
+* There's no guarantee that the 2.2s delay before this script starts working, is
+  long enough for the page to be loaded. On a slow connection, the script may fail. 
+
 * This script doesn't properly handle the edit event.  
-  The screen will become garbled. To correct that, reload the page after editing a developer app. 
+  The screen will become garbled. To correct that, reload the page after editing a developer app. Pull requests welcome.
+
+* This script will break if/when Apigee changes the layout of the UI.
+  It does screen-scraping to figure out where/how to add UI elements. 
 
